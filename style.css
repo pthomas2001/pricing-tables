@@ -1,3 +1,37 @@
 * {
   box-sizing: border-box
 }
+
+
+
+
+/* GRID */
+
+.grid-container {
+  display: grid;
+  grid: "free basic premium" 390px
+    / 1fr 1fr 1fr;
+  grid-gap: 20px
+}
+
+.free {
+  grid-area: free
+}
+
+.basic {
+  grid-area: basic
+}
+
+.premium {
+  grid-area: premium
+}
+
+
+
+
+/* DESIGN */
+
+.grid-item {
+  background: lightgrey;
+  border-radius: 10px
+}
