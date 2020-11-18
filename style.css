@@ -14,6 +14,7 @@
   grid-gap: 20px
 }
 
+
 .free {
   grid-area: free
 }
@@ -34,4 +35,29 @@
 .grid-item {
   background: lightgrey;
   border-radius: 10px
+}
+
+p {
+  padding: 1.25rem 3.5rem
+}
+
+.middle, .price {
+  text-align: center
+}
+
+.price {
+  background: red;
+  color: white
+}
+
+a {
+  display: inline-block;
+  background: #00008B;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 9999px;
+  width: 10rem;
+  padding: .5rem 2.9rem;
+  margin: 0 calc((100% - 10rem) / 2)
 }
